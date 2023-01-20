@@ -1,0 +1,62 @@
+.Banner{
+    height: 500px;
+    width: 100%;
+    background-repeat: none;
+    color: white;
+    display: flex;
+    /* padding: 70px; */
+    position: relative;
+    object-position: top left;
+}
+.Banner__content{
+    margin-top: 140px;
+    height: 190px; 
+    padding: 80px;
+    padding-left: 110px;
+}
+
+.Banner__title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: .3rem;
+}
+.Banner__buttons{
+    display: flex;
+
+}
+.Banner__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: .2vw;
+    padding: 1rem 2rem; 
+    margin-right: 1rem;
+    background-color: rgba(51,51,51,.5);
+    padding-bottom: .5rem;
+
+}
+.Banner__button:hover{
+    color: #111;
+    background-color: #e6e6e6;
+    transition: all.2s;
+}
+.Banner__desc{
+    font-size: .8rem;
+    width: 45rem;
+    line-height: 1.3rem;
+    padding-top: 1rem;
+    max-width: 360px;
+    height: 80px;
+}
+.Banner__fade{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 7.4rem;
+    background: linear-gradient(180deg , transparent , rgba(37,37,37,0.61), #111);
+}
